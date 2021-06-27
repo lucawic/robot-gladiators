@@ -73,13 +73,10 @@ for(var i=0; i <enemyNames.length; i++) {
     //pick new enemy to fight based on the index of the enemyNames array
     var pickedEnemyName = enemyNames[i];
     enemyHealth = 50;
-
-
     // use debugger to pause script from running and check what's going on at that moment in the code
-    debugger;
-
-     // pass the pickedEnemyName variable's value into the fight function, where it will assume the value of the enemyName parameter
-     fight(pickedEnemyName);
+    //debugger;
+    // pass the pickedEnemyName variable's value into the fight function, where it will assume the value of the enemyName parameter
+    fight(pickedEnemyName);
     }
     //if player isn't alive, stop the game
     else {
